@@ -1,0 +1,7 @@
+included:
+  - Testing
+  - TestingTests
+  - TestingUITests
+
+disabled_rules:
+  - trailing_whitespace
