@@ -2,7 +2,7 @@ import XCTest
 
 final class TestingTests: XCTestCase {
     func testToplama() {
-        XCTAssertEqual(2 + 3, 5)
+        XCTAssertEqual(2 + 3, 6)
     }
 
     func testMetinBosDegil() {
