@@ -13,5 +13,5 @@ GitHub Actions ile bir SwiftUI projesi için kurduğum CI/CD pipeline'ı. Her pu
 ## Yol haritası
 
 - [x] GitHub Actions ile build + test
-- [ ] SwiftLint
+- [x] SwiftLint
 - [ ] Fastlane ile TestFlight'a otomatik yükleme
