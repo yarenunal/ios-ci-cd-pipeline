@@ -27,4 +27,12 @@ jobs:
             -scheme Testing \
             -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
             -only-testing:TestingTests \
+            -resultBundlePath TestResults.xcresult \
             CODE_SIGNING_ALLOWED=NO
+
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: TestResults.xcresult
