@@ -1,6 +1,6 @@
 import Foundation
 
-final class CounterViewModel {
+nonisolated final class CounterViewModel {
     private(set) var count = 0
 
     func increment() {
